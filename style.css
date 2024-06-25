@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 50px;
+}
+.line{
+    width: 2px;
+    height: 40px;
+    background-color: white;
+    margin: 10px 10px;
+}
+.logobar{
+    background-color: #371D08;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+  
+}
+.linkcontact{
+    color: white;
+    margin: 50px;
+}
+.logo div img{
+    height: 60px;  
+    object-fit: cover;
+    transition: filter 0.3s;
+}
+img:hover{
+    filter: brightness(1.2);
+
+}
+.toolbar{
+   background-color: #F1EFE2;
+   display: flex;
+
+}
+.logotool img{
+    height: 120px;
+}
+.tool{
+   display: flex;
+   background-color: #F1EFE2;
+   padding: 10px;
+  
+}
+.toolbar-item{
+    position: relative;
+    margin-right: 20px;
+    cursor:point;
+    font-size: 22px;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #361D08;
+    padding: 10px;
+    margin-top: 5px;
+    z-index: 1;
+    border-radius: 1em;
+}
+.toolbar-item:hover .dropdown-content{
+    display: block;
+}
+.linktobuy{
+    color: #361D08;
+    text-decoration: none;
+    font-size: 22px;
+}
+.research{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 2em;
+    padding: 10px 20px;
+    width: 250px;
+}
+.research input[type="text"]{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 2em;
+}
+.research button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 2em;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.research button:hover{
+    border: 2px solid blue;
+}
