@@ -2,6 +2,11 @@
     padding: 0px;
     margin: 0px;
 }
+.container-body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
 .logo{
     display: flex;
     align-items: flex-end;
@@ -38,15 +43,24 @@ img:hover{
 .toolbar{
    background-color: #F1EFE2;
    display: flex;
+   width: 100%;
+   height: 150px;
+   align-items: center;
+   justify-content: center;
+   
 
 }
 .logotool img{
-    height: 120px;
+    height: 100px;
+    width: auto;
+    margin-left: 50px;
 }
 .tool{
    display: flex;
    background-color: #F1EFE2;
-   padding: 10px;
+   padding: 30px;
+   width: 1000px;
+   gap: 50px;
   
 }
 .toolbar-item{
@@ -81,6 +95,7 @@ img:hover{
     border-radius: 2em;
     padding: 10px 20px;
     width: 250px;
+    height: 30px;
 }
 .research input[type="text"]{
     border: none;
@@ -104,3 +119,70 @@ img:hover{
 .research button:hover{
     border: 2px solid blue;
 }
+.path{
+    width: 100%;
+    height: 50px;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    color: #361D08;
+}
+.pathconne{
+    margin-left: 50px;
+}
+.imgdog img{
+    width: 100%;
+    height: auto;
+}
+.introduction{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.child{
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.introduction .container-contact{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    gap: 20px;
+}
+.container-h1{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #361D08;
+}
+.pathconne{
+    color: #361D08;
+}
+.container{
+    text-align: center;
+    color: #361D08;
+    
+}
+.Email a{
+    color: #361D08;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.container p{
+    font-size: 20px;
+}
+
+
