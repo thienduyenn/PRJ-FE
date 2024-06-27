@@ -122,7 +122,7 @@ img:hover{
 .path{
     width: 100%;
     height: 50px;
-    background-color: wheat;
+    background-color: white;
     display: flex;
     align-items: center;
     color: #361D08;
@@ -136,7 +136,7 @@ img:hover{
 }
 .introduction{
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
     justify-content: center;
 }
@@ -184,5 +184,40 @@ img:hover{
 .container p{
     font-size: 20px;
 }
+.footer{
+    background-color: #371D08;
+ 
+}
+.footer .subfooter button{
+    height: 60px;
+    width: 240px;
+    border-radius: 1em;
+    background-color: #FFD358;
+    font-size: 1.25rem;
+}
+.footer p {
+    color: white;
+}
+.footer h2{
+    color: white;
+}
+.footer i{
+    color: white;
+}
+.subfooter{
+    margin: 80px;
+    line-height: 35px;
+}
+.Dad {
+    display: flex;
+
+}
+#sf1{
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
 
 
