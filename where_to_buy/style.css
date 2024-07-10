@@ -347,7 +347,6 @@ body{
 
 }
 .sub_body .search{
-    width: 30%;
     height: 70%;
     display: flex;
     background-color: white;

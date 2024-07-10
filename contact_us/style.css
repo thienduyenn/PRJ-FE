@@ -110,6 +110,12 @@ img:hover{
     font-size: 20px;
     border-radius: 2em;
 }
+.menu_drop_down.off {
+    display: none;
+}
+.button_toggle_menu{
+    display: none;
+}
 .research button{
     background-color: white;
     color: black;
