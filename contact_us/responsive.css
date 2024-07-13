@@ -2,7 +2,6 @@
     .logobar {
       display: flex !important;
       width: 100%;
-      margin: 5px;  
     }
     .toolbar{
       display: block; 
@@ -13,7 +12,9 @@
       padding: 10px;
       justify-content: center;
     }
-    
+    .container-h1 h1{
+      font-size: 5vw;
+    }
     .footer{
       display: flex;
       flex-wrap: wrap;
@@ -31,11 +32,17 @@
     .research {
       display: flex;
       width: 85%;
-      margin-left: 100px;
+      margin-left: 80px;
     }
     .logotool img{
       height: 80px;
       width: auto;
+    }
+    .web{
+      width: 100%;
+    }
+    .break{
+      flex-basis: 100%;
     }
     .toolbar {
       display:flex;
@@ -78,7 +85,31 @@
     .container-subbody .title h1{
         font-size :8vw;
     }
-    
+    .introduction{
+      height: 600px;
+    }
+    .container-h1 h1{
+      font-size: 6vw;
+    }
+    .container-contact{
+      display: flex;
+      flex-direction: column;
+    }
+    .container-contact h2{
+      font-size: 5vw;
+    }
+    .container-contact p{
+      font-size: 3vw;
+    }
+    .call{
+      padding: 10px;
+    }
+    .Write{
+      padding: 10px;
+    }
+    .Email{
+      padding: 10px;
+    }
     .footer{
         margin-top: 40px;
         display: flex;
